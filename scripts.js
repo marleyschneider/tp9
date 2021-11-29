@@ -73,7 +73,7 @@ AnotherRecipe = new Recipe();
 
 window.onload = function() {
 
-  document.querySelector("#titleBanner h1").classList.add("tp9");
+  document.querySelector("#titleBanner h1").classList.add("title");
 
   document.querySelector("#Ingredients").onclick = function() {
     document.querySelector("#Ingredients ul").classList.toggle("showMe");
@@ -89,7 +89,7 @@ window.onload = function() {
 
 
   document.querySelector("#titleBanner h1").onclick = function() {
-    this.classList.toggle("tp9");
+    this.classList.toggle("title");
   }
 
   document.querySelector("#copyright").innerHTML += "<p><em>Recipe shown without permission from creator, my apologies!</em></p>";
